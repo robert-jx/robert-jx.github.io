@@ -1,4 +1,4 @@
-import avatar from '@/assets/images/avatar-22.jpg';
+import avatar from '@/assets/images/avatar.jpg';
 import { StaticImageData } from 'next/image';
 
 interface AuthorData {
