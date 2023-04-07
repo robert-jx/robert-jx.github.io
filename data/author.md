@@ -4,7 +4,7 @@
 
 ```typescript {{ title: 'test' }}
 const Robert-jx: UniquePerson = new Developer({
-  name: 'Robert-jx'],
+  name: 'Robert-jx',
   pronouns: 'He' | 'Him',
   speaks: 'Mandarin' | 'English' | 'Cantonese' | 'Chaoshan dialect',
   status: 'Working as a front-end engineer for Vue'

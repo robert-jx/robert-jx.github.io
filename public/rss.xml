@@ -4,7 +4,7 @@
         <title>Robert-jx</title>
         <link>https://robert-jx.cc</link>
         <description>Robert-jx's personal website</description>
-        <lastBuildDate>Thu, 06 Apr 2023 13:55:18 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 07 Apr 2023 12:46:39 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -13,5 +13,17 @@
             <link>https://robert-jx.cc</link>
         </image>
         <copyright>All rights reserved 2023, Robert-jx</copyright>
+        <item>
+            <title><![CDATA[vue2-echarts]]></title>
+            <link>https://robert-jx.ccblogs/vue2-echarts</link>
+            <guid>blogs/vue2-echarts</guid>
+            <pubDate>Fri, 07 Apr 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[vue2-echarts]]></title>
+            <link>https://robert-jx.ccblogs/vue2-echarts</link>
+            <guid>blogs/vue2-echarts</guid>
+            <pubDate>Fri, 07 Apr 2023 00:00:00 GMT</pubDate>
+        </item>
     </channel>
 </rss>
