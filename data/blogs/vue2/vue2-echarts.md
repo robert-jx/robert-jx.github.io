@@ -3,7 +3,7 @@ title: vue2-echarts
 date: '2023-04-07'
 summary: '基于vue2的echarts常见三类图标的封装'
 draft: false
-tags: ['vue2','echarts']
+tags: ['vue2','echarts','javascript']
 canonicalUrl: ''
 ---
 在近日的工作中，有需要用到echarts各种图表应对不同的场景的情况。因此抽空之余对几个比较常用的echarts图表进行了二次封装。开箱即用，只需要传入对应的参数即可。

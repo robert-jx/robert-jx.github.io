@@ -3,7 +3,7 @@ title: vue2-二维码的生成及批量下载
 date: '2023-04-07'
 summary: 基于vue-qr的二维码生成
 draft: false
-tags: ['vue2','vue-qr']
+tags: ['vue2','vue-qr','javascript']
 canonicalUrl: ''
 ---
 遇到个需求：要在某个表格中展示出二维码,并且要能够进行批量下载。通过一番学习，最后选择使用vue-qr来实现二维码展示效果，具体流程如下。

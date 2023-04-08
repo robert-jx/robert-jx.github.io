@@ -4,7 +4,7 @@
         <title>Robert-jx</title>
         <link>https://robert-jx.cc</link>
         <description>Robert-jx's personal website</description>
-        <lastBuildDate>Sat, 08 Apr 2023 00:59:15 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 08 Apr 2023 11:43:49 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -19,6 +19,13 @@
             <guid>blogs/vue3/dragging-demo</guid>
             <pubDate>Sat, 08 Apr 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[基于vue3+vite+typescript的拖拽布点功能实现]]></description>
+        </item>
+        <item>
+            <title><![CDATA[vue3-echarts二次封装]]></title>
+            <link>https://robert-jx.ccblogs/vue3/vue3-echarts二次封装</link>
+            <guid>blogs/vue3/vue3-echarts二次封装</guid>
+            <pubDate>Sat, 08 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[基于vue3+vite+typescript的echarts常见图表的二次封装]]></description>
         </item>
         <item>
             <title><![CDATA[js-获取视频第一帧截图]]></title>

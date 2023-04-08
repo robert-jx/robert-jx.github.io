@@ -4,7 +4,7 @@ date: '2023-04-08'
 summary: >-
   基于vue3+vite+typescript的拖拽布点功能实现
 draft: false
-tags: ['vue3','typescript']
+tags: ['vue3','typescript','vite']
 canonicalUrl: ''
 ---
 ### 拖拽布点功能
