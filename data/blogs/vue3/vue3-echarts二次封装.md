@@ -12,10 +12,3 @@ canonicalUrl: ''
 此项目基于vite+vue3+typescript，实现了echarts一些常见图表的二次封装。只需要在引入后对相应的组件传入不同的参数即可实现不同的展示效果。同样也是开箱即用，后续将会更新更多内容。
 
 项目链接：https://github.com/robert-jx/echarts-tool
-
-
-#### 折线图
-
-效果图如下：
-
-![图片](/public/resources/line-chart.png)
