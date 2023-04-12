@@ -21,7 +21,7 @@ const siteData: SiteData = {
   description: "Robert-jx's personal website",
   language: 'zh-cn, en-us',
   theme: 'system', // system, dark or light
-  url: 'https://robert-jx.cc',
+  url: 'https://robert-jx.github.io',
   logo: '/images/logo.jpg',
   banner: '/images/logo.jpg',
   locale: 'zh-CN',
