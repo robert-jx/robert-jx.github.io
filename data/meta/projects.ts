@@ -11,13 +11,13 @@ export interface Project {
 export const projects: Project[] = [
   {
     name: 'online-retailers',
-    description: '电商后台系统开发',
+    description: '电商后台系统demo开发',
     link: 'https://github.com/robert-jx/online-retailers',
   },
   {
     name: 'echarts-tool',
     description:
-      '基于echarts的二次封装项目，使用vue3+typescript+vite',
+      '基于echarts的二次封装demo，使用vue3+typescript+vite',
     link: 'https://github.com/robert-jx/echarts-tool',
   },
   {
@@ -26,4 +26,23 @@ export const projects: Project[] = [
       '基于vue3+typescript+vite实现拖拽布点功能',
     link: 'https://github.com/robert-jx/dragging-demo',
   },
+  {
+    name: 'blowup-picture',
+    description:
+      '基于clip-path实现平面图不规则区域放大的功能demo',
+    link: 'https://github.com/robert-jx/blowup-picture',
+  },
+  {
+    name: 'time-axis',
+    description:
+      '基于vue2实现的时间滑动组件demo',
+    link: 'https://github.com/robert-jx/time-axis',
+  },
+  {
+    name: 'vite-demo',
+    description:
+      '提供使用vite创建的vue3模板',
+    link: 'https://github.com/robert-jx/vite-demo',
+  },
+
 ];

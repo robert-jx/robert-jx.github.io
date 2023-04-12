@@ -11,7 +11,7 @@ canonicalUrl: ''
 
 以前用过vue2来实现过拖拽布点的功能，最近研究了下vue3，写了个类似功能的demo，同样是基于dragStart等事件来实现。
 
-该demo开箱即用，链接如下：
+该demo开箱即用，链接如下👇
 
 #### 项目链接
 https://github.com/robert-jx/dragging-demo
