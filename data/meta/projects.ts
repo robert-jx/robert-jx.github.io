@@ -44,5 +44,11 @@ export const projects: Project[] = [
       '提供使用vite创建的vue3模板',
     link: 'https://github.com/robert-jx/vite-demo',
   },
+  {
+    name: 'translate-content',
+    description:
+      '参与 MDN 文档的本地化，包括翻译并向 MDN 社区提供建设意见',
+    link: 'https://github.com/robert-jx/translated-content',
+  },
 
 ];
