@@ -7,7 +7,7 @@ tags: [javascript]
 canonicalUrl: ''
 ---
 遇到个需求，需要对后端传来的视频进行截图展示，而且还是第一帧的图。因此记录一下，使用canvas来获取视频第一帧相关的base64图片
-```
+```javascript
  getVideoBase64(url) {
       return new Promise(function (resolve, reject) {
         let dataURL = "";

@@ -19,7 +19,7 @@ https://github.com/robert-jx/dragging-demo
 #### 关键代码
 
 这里的点位我只是用了文字来展示，可以改成自定义图标
-```
+```html
 <template>
   <section class="app">
     <section class="left">

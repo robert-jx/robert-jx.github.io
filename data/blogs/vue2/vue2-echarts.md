@@ -19,12 +19,12 @@ npm i element-resize-detector -s
 ```
 
 2、页面中引入
-```
+```js
 let elementResizeDetectorMaker = require("element-resize-detector");
 ```
 
 3、在created里使用
-```
+```js
 //监听元素变化
       let erd = elementResizeDetectorMaker();
       let that = this;
@@ -36,7 +36,7 @@ let elementResizeDetectorMaker = require("element-resize-detector");
       });
 ```
 4、记得还需要在beforeDestroy中取消监听
-```
+```js
 beforeDestroy() {
     //监听元素变化
     let erd = elementResizeDetectorMaker();
@@ -46,7 +46,7 @@ beforeDestroy() {
 ```
 
 #### 折线图封装代码
-```
+```html
 <template>
   <!-- 基础折线图 -->
   <div :ref="id" :id="id" :style="{ width: width, height: height }"></div>
@@ -369,7 +369,7 @@ export default {
 ```
 
 #### 柱状图封装代码
-```
+```html
 <template>
   <!-- 基础柱状图 -->
   <div :ref="id" :id="id" :style="{ width: width, height: height }"></div>
@@ -675,7 +675,7 @@ export default {
 ```
 
 #### 饼图封装代码
-```
+```html
 <template>
   <!-- 饼图 -->
   <div :ref="id" :id="id" :style="{ width: width, height: height }"></div>
