@@ -28,11 +28,23 @@ export const projects: Project[] = [
     logo: onlineRetailers
   },
   {
+    name: 'time-axis',
+    description:
+      '基于vue2实现的时间滑动组件demo',
+    link: 'https://github.com/robert-jx/time-axis',
+  },
+  {
     name: 'echarts-tool',
     description:
       '基于echarts的二次封装demo，使用vue3+typescript+vite',
     link: 'https://github.com/robert-jx/echarts-tool',
     logo: echarts
+  },
+  {
+    name: 'blowup-picture',
+    description:
+      '基于clip-path实现平面图不规则区域放大的功能demo',
+    link: 'https://github.com/robert-jx/blowup-picture',
   },
   {
     name: 'vite-demo',
@@ -46,18 +58,6 @@ export const projects: Project[] = [
     description:
       '基于vue3+typescript+vite实现拖拽布点功能',
     link: 'https://github.com/robert-jx/dragging-demo',
-  },
-  {
-    name: 'blowup-picture',
-    description:
-      '基于clip-path实现平面图不规则区域放大的功能demo',
-    link: 'https://github.com/robert-jx/blowup-picture',
-  },
-  {
-    name: 'time-axis',
-    description:
-      '基于vue2实现的时间滑动组件demo',
-    link: 'https://github.com/robert-jx/time-axis',
   },
 
 ];
