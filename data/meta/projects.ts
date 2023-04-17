@@ -4,6 +4,7 @@ import onlineRetailers from '@/assets/images/projects/online-retailers.png'
 import echarts from '@/assets/images/projects/echarts.png'
 import mdn from '@/assets/images/projects/mdn.png'
 import vite from '@/assets/images/projects/vite.jpg'
+import progress from '@/assets/images/projects/progress-bar.png'
 
 export interface Project {
   name: string;
@@ -58,6 +59,12 @@ export const projects: Project[] = [
     description:
       '基于vue3+typescript+vite实现拖拽布点功能',
     link: 'https://github.com/robert-jx/dragging-demo',
+  },
+  {
+    name: 'progress-bar',
+    description: '基于vue3的进度条效果',
+    link: 'https://github.com/robert-jx/progress-bar',
+    logo: progress
   },
 
 ];
