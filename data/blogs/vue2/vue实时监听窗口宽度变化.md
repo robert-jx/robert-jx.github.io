@@ -11,7 +11,7 @@ canonicalUrl: ''
 
 通过【监听窗口变化】可以达到大部分的【自适应】效果
 
-##### 有关原生js
+#### 有关原生js
 
 ```js
 // 网页可见区域宽：
@@ -24,13 +24,13 @@ document.body.offsetWidth (包括边线的宽)
 document.body.offsetHeight (包括边线的宽)
 ```
 
-##### 监听窗口变化
+#### 监听窗口变化
 
 ```js
 window.onresize
 ```
 
-##### 在 mounted 内，挂载 window.onresize 方法
+#### 在 mounted 内，挂载 window.onresize 方法
 
 ```js
 mounted () {
@@ -44,7 +44,7 @@ mounted () {
 }
 ```
 
-##### 在 watch 中对 screenWidth 进行监听
+#### 在 watch 中对 screenWidth 进行监听
 
 ```js
 watch:{
