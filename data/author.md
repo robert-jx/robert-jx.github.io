@@ -1,4 +1,4 @@
-<h2 className="flex flex-row mb-2"><img style={{margin: 0}} src="https://image-lake.oss-cn-hangzhou.aliyuncs.com/uPic/e6c9d24egy1h1571l0uucg205k05egri.gif" width="32"/>Hi, I'm Robert-jx!</h2>
+<h2 className="flex flex-row mb-2"><img style={{margin: 0}} src="https://robert-jx.oss-cn-shenzhen.aliyuncs.com/blog/images/hello.gif" width="32" height="32" />Hi, I'm Robert-jx!</h2>
 
 👇🏼 Read this code to know about me 👇🏼
 
