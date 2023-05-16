@@ -4,7 +4,7 @@
         <title>Robert-jx</title>
         <link>https://robert-jx.github.io</link>
         <description>Robert-jx's personal website</description>
-        <lastBuildDate>Fri, 12 May 2023 05:50:51 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 16 May 2023 02:45:35 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,11 +14,42 @@
         </image>
         <copyright>All rights reserved 2023, Robert-jx</copyright>
         <item>
+            <title><![CDATA[nvm基本使用]]></title>
+            <link>https://robert-jx.github.ioblogs/vue3/nvm基本使用</link>
+            <guid>blogs/vue3/nvm基本使用</guid>
+            <pubDate>Tue, 16 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[nvm的安装和使用]]></description>
+        </item>
+        <item>
+            <title><![CDATA[js-手机号、邮箱、身份证验证]]></title>
+            <link>https://robert-jx.github.ioblogs/javascript/js-手机号邮箱身份证验证</link>
+            <guid>blogs/javascript/js-手机号邮箱身份证验证</guid>
+            <pubDate>Fri, 12 May 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[js-数组与树之间的转换]]></title>
+            <link>https://robert-jx.github.ioblogs/javascript/js-数组与树之间的转换</link>
+            <guid>blogs/javascript/js-数组与树之间的转换</guid>
+            <pubDate>Fri, 12 May 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[js-解决跨页选择后对数据判断的问题]]></title>
+            <link>https://robert-jx.github.ioblogs/javascript/js-解决跨页选择后对数据判断的问题</link>
+            <guid>blogs/javascript/js-解决跨页选择后对数据判断的问题</guid>
+            <pubDate>Fri, 12 May 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[ant-design-vue总结]]></title>
             <link>https://robert-jx.github.ioblogs/vue2/ant-design-vue总结</link>
             <guid>blogs/vue2/ant-design-vue总结</guid>
             <pubDate>Fri, 12 May 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[ant-design-vue安装使用及常见问题总结]]></description>
+        </item>
+        <item>
+            <title><![CDATA[axios使用总结]]></title>
+            <link>https://robert-jx.github.ioblogs/vue2/axios使用总结</link>
+            <guid>blogs/vue2/axios使用总结</guid>
+            <pubDate>Fri, 12 May 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[vuedraggable]]></title>
