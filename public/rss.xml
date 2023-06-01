@@ -4,7 +4,7 @@
         <title>Robert-jx</title>
         <link>https://robert-jx.github.io</link>
         <description>Robert-jx's personal website</description>
-        <lastBuildDate>Wed, 17 May 2023 03:02:24 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 Jun 2023 08:53:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -13,6 +13,13 @@
             <link>https://robert-jx.github.io</link>
         </image>
         <copyright>All rights reserved 2023, Robert-jx</copyright>
+        <item>
+            <title><![CDATA[element-ui使用总结]]></title>
+            <link>https://robert-jx.github.ioblogs/vue2/element-ui使用总结</link>
+            <guid>blogs/vue2/element-ui使用总结</guid>
+            <pubDate>Thu, 01 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[element-ui安装使用及常见问题总结]]></description>
+        </item>
         <item>
             <title><![CDATA[vue键盘事件]]></title>
             <link>https://robert-jx.github.ioblogs/vue3/vue键盘事件</link>
