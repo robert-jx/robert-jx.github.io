@@ -4,7 +4,7 @@
         <title>Robert-jx</title>
         <link>https://robert-jx.github.io</link>
         <description>Robert-jx's personal website</description>
-        <lastBuildDate>Thu, 01 Jun 2023 08:53:29 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 Jun 2023 09:17:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -19,6 +19,13 @@
             <guid>blogs/vue2/element-ui使用总结</guid>
             <pubDate>Thu, 01 Jun 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[element-ui安装使用及常见问题总结]]></description>
+        </item>
+        <item>
+            <title><![CDATA[video常用配置控制]]></title>
+            <link>https://robert-jx.github.ioblogs/vue2/video常用配置控制</link>
+            <guid>blogs/vue2/video常用配置控制</guid>
+            <pubDate>Thu, 01 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[隐藏video的各种控件]]></description>
         </item>
         <item>
             <title><![CDATA[vue键盘事件]]></title>
