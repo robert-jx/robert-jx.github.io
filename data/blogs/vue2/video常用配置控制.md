@@ -7,7 +7,24 @@ tags: ['vue2','video']
 canonicalUrl: ''
 ---
 
-在 `vue` 项目开发中，有时候需要对 `video` 原生组件中的一些配置进行隐藏操作。归纳如下：
+在 `vue` 项目开发中，有时候需要对 `video` 原生组件中的配置进行一些操作。归纳如下：
+
+### 阻止视频 video 标签点击视频区域播放暂停
+
+```js
+<video controls id="videoContent" autoplay muted playsinline></video>
+
+myVid = document.getElementById("videoContent");
+ 
+myVid.addEventListener("click", mouseHandler, false);
+ 
+function mouseHandler(event) {
+      // 阻止视频默认点击事件
+      event.preventDefault()
+}
+```
+
+### 隐藏 video 的各种控件
 
 ```scss
 /* 隐藏video 全屏按钮 */
