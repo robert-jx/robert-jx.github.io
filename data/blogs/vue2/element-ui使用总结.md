@@ -9,19 +9,19 @@ canonicalUrl: ''
 
 最近项目主打使用 `element-ui`，于是抽空对这个组件库进行一些总结。
 
-### 介绍
+## 介绍
 
 [`element-ui`](https://element.eleme.cn/#/zh-CN)，一套为开发者、设计师和产品经理准备的基于 `Vue 2.0` 的桌面端组件库。
 
-### 安装与引入
+## 安装与引入
 
-#### 使用 npm 安装
+### 使用 npm 安装
 
 ```js-nolint
 npm i element-ui -S
 ```
 
-#### 完整引入
+### 完整引入
 
 在 `main.js` 内输入以下内容
 
@@ -41,9 +41,9 @@ new Vue({
 
 至此，`element-ui` 就安装并引入成功了，以下是常见问题👇
 
-### 常见问题
+## 常见问题
 
-#### el-tree 默认勾选
+### el-tree 默认勾选
 
 ```html
  <el-tree
@@ -69,7 +69,7 @@ this.$nextTick(() => {
 });
 ```
 
-#### el-input-number 计数器限制只能输⼊数字
+### el-input-number 计数器限制只能输⼊数字
 
 ```html
  <el-input-number 
@@ -82,7 +82,7 @@ this.$nextTick(() => {
 </el-input-number>
 ```
 
-#### el-dialog 可拖拽效果
+### el-dialog 可拖拽效果
 
 `el-dialog` 一般都是在固定位置展现，因项目需求，要实现让弹窗可以拖动的效果。所以这里记录一下：
 
@@ -249,4 +249,46 @@ Vue.use(directive)
 	:close-on-click-modal="false"
 >
 </el-dialog>
+```
+
+### el-table 实现跨页多选数据
+
+遇到个需求：如果在跨页的 `table` 表格中跨页选择数据。原本以为没法实现，但是通过查询资料发现，可以通过以下方式实现：
+
+给 `el-table` 添加 `row-key` 属性
+
+```html
+<el-table
+        :data="dataList"
+        border
+        :row-key="getRowKey"
+        style="width: 100%"
+        height="300px"
+        @selection-change="handleSelectionChange"
+        ref="multipleTable"
+      >
+</el-table>
+```
+
+上面中的 `row-key` 需要绑定一个唯一值，这里的实际情况是每一条数据中的 `id` 是唯一值，因此 `getRowKey` 函数如下：
+
+```js
+getRowKey(row) {
+  return row.id;
+}
+```
+
+接着在表格的多选框中添加 `:reserve-selection="true"` 即可实现跨页选择
+
+```html
+<el-table-column type="selection" width="40" :reserve-selection="true"></el-table-column>
+```
+
+这里的 `handleSelectionChange` 方法如下：
+
+```js
+// table多选
+handleSelectionChange(val) {
+    this.multipleSelection = val;
+},
 ```
