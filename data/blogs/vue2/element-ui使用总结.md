@@ -292,3 +292,11 @@ handleSelectionChange(val) {
     this.multipleSelection = val;
 },
 ```
+
+### el-table fixed 设置固定列头部背景不透明
+
+```scss
+::v-deep .el-table__fixed-right{
+    background-color: #fff !important;
+}
+```
