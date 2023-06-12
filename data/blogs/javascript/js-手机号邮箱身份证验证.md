@@ -7,7 +7,7 @@ tags: ['javascript']
 canonicalUrl: ''
 ---
 
-#### 使用正则进行手机号、邮箱、身份证验证
+### 使用正则进行手机号、邮箱、身份证验证
 
 在使用 `element-ui` 中的[表单验证](https://element.eleme.cn/#/zh-CN/component/form)时，想给 `el-input` 添加一层验证。验证其手机号、邮箱、身份证是否输入正确，规则如下：
 

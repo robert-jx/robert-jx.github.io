@@ -8,13 +8,17 @@ canonicalUrl: ''
 ---
 遇到个需求：要在某个表格中展示出二维码,并且要能够进行批量下载。通过一番学习，最后选择使用vue-qr来实现二维码展示效果，具体流程如下。
 
-#### 安装vue-qr
+### 安装vue-qr
+
 这里我使用的是npm安装
+
 ```
 npm install vue-qr --save
 ```
-#### 引入vue-qr
+### 引入vue-qr
+
 在需要的页面导入，并在components里面注册
+
 ```html
 <script>
   import vueQr from "vue-qr"
@@ -38,22 +42,27 @@ npm install vue-qr --save
 </script>
 
 ```
-#### 使用组件
+
+### 使用组件
+
 在对应的地方加入该组件
+
 ```html
 <vue-qr :option={size:200} :value="传的url"></vue-qr>
 ```
+
 这个也可以封装成可复用的组件，只需传值即可，接下来便是批量下载
 
 首先要实现批量导出二维码，得要安装jsZip和file-saver
 
-#### 安装jsZip和file-saver
+### 安装 jsZip 和 file-saver
+
 ```
 npm install jszip --save
 npm install file-saver --save
 ```
 
-#### 对应页面导入
+### 对应页面导入
 
 ```html
 <script>
@@ -76,8 +85,10 @@ export default{
 </script>
 ```
 
-#### 点击按钮后调用函数下载
+### 点击按钮后调用函数下载
+
 此处的主要思想就是，对页面当前所有的数据进行遍历赋值，之后再将qrFile拿去调用函数即可
+
 ```html
 <template>
     <div class="demo>

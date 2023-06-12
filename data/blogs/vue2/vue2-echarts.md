@@ -10,7 +10,7 @@ canonicalUrl: ''
 
 因为项目中的侧边栏做了伸缩功能，平时的监听dom元素宽度变化在侧边栏伸缩时失效了。所以这里还引入了element-resize-detector库来实现图表自适应变化。
 
-#### 使用步骤如下：
+### 使用步骤如下：
 
 1、安装element-resize-detector
 
@@ -19,11 +19,13 @@ npm i element-resize-detector -s
 ```
 
 2、页面中引入
+
 ```js
 let elementResizeDetectorMaker = require("element-resize-detector");
 ```
 
 3、在created里使用
+
 ```js
 //监听元素变化
       let erd = elementResizeDetectorMaker();
@@ -35,7 +37,9 @@ let elementResizeDetectorMaker = require("element-resize-detector");
         });
       });
 ```
+
 4、记得还需要在beforeDestroy中取消监听
+
 ```js
 beforeDestroy() {
     //监听元素变化
@@ -45,7 +49,8 @@ beforeDestroy() {
   },
 ```
 
-#### 折线图封装代码
+### 折线图封装代码
+
 ```html
 <template>
   <!-- 基础折线图 -->
@@ -368,7 +373,8 @@ export default {
 </style>
 ```
 
-#### 柱状图封装代码
+### 柱状图封装代码
+
 ```html
 <template>
   <!-- 基础柱状图 -->
@@ -674,7 +680,8 @@ export default {
 </style>
 ```
 
-#### 饼图封装代码
+### 饼图封装代码
+
 ```html
 <template>
   <!-- 饼图 -->
@@ -921,5 +928,3 @@ export default {
 <style>
 </style>
 ```
-
-

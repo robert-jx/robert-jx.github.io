@@ -7,6 +7,7 @@ draft: false
 tags: ['vue3','typescript','vite']
 canonicalUrl: ''
 ---
+
 ### 拖拽布点功能
 
 以前用过vue2来实现过拖拽布点的功能，最近研究了下vue3，写了个类似功能的demo，同样是基于dragStart等事件来实现。

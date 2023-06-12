@@ -8,15 +8,17 @@ canonicalUrl: ''
 ---
 在一些项目中，经常见到切换页面的时候。页面顶部出现一个进度条，使得页面过渡较为平滑。常见的实现方式是使用nprogress插件
 
-#### 如何使用该插件？
+### 如何使用该插件？
 
 1、首先需要安装nprogress插件
+
 ```
 npm i -s nprogress
 ```
 
 2、安装好后需要在main.js里面进行配置
-```
+
+```js
 import NProgress from 'nprogress';
 import 'nprogress/nprogress.css';
 
@@ -37,7 +39,8 @@ NProgress.configure({
 ```
 
 3、紧接着只需要在路由相关文件(常见：router.js)中使用
-```
+
+```js
 //当路由进入前
 
  router.beforeEach((to, from , next) => {
