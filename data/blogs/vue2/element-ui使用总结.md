@@ -299,6 +299,17 @@ handleSelectionChange(val) {
 ::v-deep .el-table__fixed-right{
     background-color: #fff !important;
 }
+
+::v-deep .el-table__fixed-right::before,
+::v-deep .el-table__fixed::before {
+        background-color: #fff;
+        font-size: 12px !important;
+    }
+
+::v-deep .el-table__fixed,
+::v-deep .el-table__fixed-left {
+    background-color: #fff !important;
+}
 ```
 
 ### el-input 校验规则
