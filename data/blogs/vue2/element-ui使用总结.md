@@ -377,3 +377,21 @@ pattern:/^(?![\d]+$)(?![a-zA-Z]+$)(?![^\da-zA-Z]+$)([^\u4e00-\u9fa5\s]){6,20}$/,
 14、中文校验:
 pattern:/^[\u0391-\uFFE5A-Za-z]+$/,
 ```
+
+### el-table 更改行 hover 样式
+
+#### el-table 没有加 fixed 属性的时候
+
+```scss
+.el-table tbody tr:hover > td {
+  background: #fff !important;
+}
+```
+
+#### el-table 加了 fixed 属性
+
+```scss
+.el-table__body .el-table__row.hover-row td {
+  background: var(--normal-green) !important;
+}
+```
