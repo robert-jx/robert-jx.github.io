@@ -312,6 +312,56 @@ handleSelectionChange(val) {
 }
 ```
 
+### el-time-picker 修改局部样式
+
+el-time-picker 的样式最终是挂载在 body 里面的。也就是说，它与我们的子组件是并列关系，那么这时候需要如何修改子组件内的 el-time-picker 样式？
+
+【正确做法】：可以在 element-ui 中看到 DateTimePicker 的 Attributes 中存在一个 popper-class 属性，官方介绍中可以利用它可以给 DateTimePicker 下拉框的设置类名。
+
+```html
+<el-time-picker
+  v-model="form.startTime"
+  type="datetime"
+  value-format="HH:mm:ss"
+  clearable
+  size="mini"
+  placeholder="选择上班时间"
+  :default-time="'08:00:00'"
+  popper-class="myDatePicker"
+/>
+```
+
+注意此处没有添加 scoped 属性，所以全局生效，但是有类名限制，不会与其他类样式冲突。
+
+```html
+<style lang="scss">
+.myDatePicker {
+  .el-time-panel {
+    border: 1px solid #e4e7ed !important;
+  }
+  .el-time-panel__content {
+    background: #fff !important;
+  }
+  .el-time-panel__footer {
+    border-top: 1px solid #e4e4e4;
+    background: #fff !important;
+    padding: 4px;
+    height: 36px;
+    line-height: 25px;
+    text-align: right;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .el-time-panel__footer .el-time-panel__btn {
+    color: #606266 !important;
+  }
+  .el-time-panel__footer .el-time-panel__btn:hover {
+    color: #606266 !important;
+  }
+}
+</style>
+```
+
 ### el-input 校验规则
 
 这里收集了一些关于 `el-input` 的校验规则
