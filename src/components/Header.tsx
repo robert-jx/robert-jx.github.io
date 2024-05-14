@@ -1,6 +1,6 @@
 import config from '#/meta/config';
 import siteData from '#/meta/site';
-import logo from '@/assets/images/logo.jpg';
+import logo from '@/assets/images/logo.jpeg';
 import ThemeSwitcher from '@/components/ThemeSwitcher';
 import { Popover, Transition } from '@headlessui/react';
 import { IconMenu2, IconX } from '@tabler/icons-react';

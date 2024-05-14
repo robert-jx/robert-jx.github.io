@@ -22,8 +22,8 @@ const siteData: SiteData = {
   language: 'zh-cn, en-us',
   theme: 'system', // system, dark or light
   url: 'https://robert-jx.github.io',
-  logo: '/images/logo.jpg',
-  banner: '/images/logo.jpg',
+  logo: '/images/logo.jpeg',
+  banner: '/images/logo.jpeg',
   locale: 'zh-CN',
   showCodeLineNumbers: false,
   // beian: '粤ICP备2021039182号'
