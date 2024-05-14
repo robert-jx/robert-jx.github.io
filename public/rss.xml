@@ -4,7 +4,7 @@
         <title>Robert-jx</title>
         <link>https://robert-jx.github.io</link>
         <description>Robert-jx's personal website</description>
-        <lastBuildDate>Thu, 29 Jun 2023 02:10:57 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 14 May 2024 07:59:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -12,7 +12,39 @@
             <url>https://robert-jx.github.io/images/logo.jpg</url>
             <link>https://robert-jx.github.io</link>
         </image>
-        <copyright>All rights reserved 2023, Robert-jx</copyright>
+        <copyright>All rights reserved 2024, Robert-jx</copyright>
+        <item>
+            <title><![CDATA[vue2-svg内添加鼠标事件]]></title>
+            <link>https://robert-jx.github.ioblogs/vue2/vue2-svg内添加鼠标事件</link>
+            <guid>blogs/vue2/vue2-svg内添加鼠标事件</guid>
+            <pubDate>Fri, 12 Jan 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[vue2-jessibuca视频插件的使用]]></title>
+            <link>https://robert-jx.github.ioblogs/vue2/vue2-jessibuca视频插件的使用</link>
+            <guid>blogs/vue2/vue2-jessibuca视频插件的使用</guid>
+            <pubDate>Mon, 08 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[jessibuca视频插件的使用]]></description>
+        </item>
+        <item>
+            <title><![CDATA[threejs-镜头切换]]></title>
+            <link>https://robert-jx.github.ioblogs/three/threejs-镜头切换</link>
+            <guid>blogs/three/threejs-镜头切换</guid>
+            <pubDate>Mon, 23 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[关于如何丝滑的进行镜头切换]]></description>
+        </item>
+        <item>
+            <title><![CDATA[three.js安装与使用]]></title>
+            <link>https://robert-jx.github.ioblogs/three/threejs安装与使用</link>
+            <guid>blogs/three/threejs安装与使用</guid>
+            <pubDate>Mon, 16 Oct 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[js-数组根据某个字段排序]]></title>
+            <link>https://robert-jx.github.ioblogs/javascript/js-数组根据某个字段排序</link>
+            <guid>blogs/javascript/js-数组根据某个字段排序</guid>
+            <pubDate>Thu, 06 Jul 2023 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[js-获取屏幕缩放比例和分辨率]]></title>
             <link>https://robert-jx.github.ioblogs/javascript/js-获取屏幕缩放比例和分辨率</link>
