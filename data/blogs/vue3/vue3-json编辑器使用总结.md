@@ -111,3 +111,75 @@ import "./view/declare.d.ts"
     color: #fff;
 }
 ```
+
+然后你会发现终端抛出了警告：
+
+```js-nolint
+::v-deep usage as a combinator has been deprecated. Use :deep(<inner-selector>) instead of ::v-deep <inner-selector>.
+```
+
+原因在于 ::v-deep 作为组合器的用法废弃，要使用 :deep(<inner-selector>) 语法来代替；
+
+所以修改如下
+
+```css
+::v-deep(.jsoneditor) {
+    color: #fff;
+    border: thin solid #de7f29;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 0;
+    line-height: 100%;
+}
+
+::v-deep(.jsoneditor-menu) {
+    width: 100%;
+    height: 35px;
+    padding: 2px;
+    margin: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #de7f29;
+    border-bottom: 1px solid #de7f29;
+}
+
+::v-deep(.ace-jsoneditor .ace_gutter),
+::v-deep(.ace-jsoneditor .ace_marker-layer .ace_active-line) {
+    background: #2b2b2b;
+    color: #fff;
+}
+
+::v-deep(.ace-jsoneditor .ace_variable) {
+    color: #fff;
+}
+
+::v-deep(.ace-jsoneditor .ace_gutter-active-line) {
+    background-color: #222;
+}
+
+::v-deep(.ace-jsoneditor .ace_scroller) {
+    background-color: #222;
+}
+
+::v-deep(.jsoneditor-statusbar) {
+    line-height: 26px;
+    height: 26px;
+    color: #fff;
+    background-color: #2b2b2b;
+    border-top: 1px solid #222;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+::v-deep(.ace-jsoneditor .ace_text-layer) {
+    color: #fff;
+}
+```
