@@ -118,9 +118,9 @@ import "./view/declare.d.ts"
 ::v-deep usage as a combinator has been deprecated. Use :deep(<inner-selector>) instead of ::v-deep <inner-selector>.
 ```
 
-原因在于 ::v-deep 作为组合器的用法废弃，要使用 :deep(<inner-selector>) 语法来代替；
+原因在于组合器的用法废弃，要使用新的语法来代替。
 
-所以修改如下
+所以修改如下：
 
 ```css
 ::v-deep(.jsoneditor) {
