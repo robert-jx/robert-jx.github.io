@@ -64,7 +64,7 @@ jobs:
           NEXT_PUBLIC_DOCSEARCH_INDEX_NAME: jasonlam
         run: pnpm export
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v4
         with:
           path: ./out
 
