@@ -7,7 +7,7 @@ tags: ['python','pyqrcode']
 canonicalUrl: ''
 ---
 
-近期开始研究一下 python，以下是一个简单的二维码生成过程
+近期开始研究一下 `python`，以下是一个简单的二维码生成过程：
 
 ### 步骤
 
@@ -25,4 +25,4 @@ url = pyqrcode.create(s)
 url.svg("baidu.svg", scale=8)
 ```
 
-这里使用的 pyqrcode 组件库快速的实现二维码功能
+这里使用的 `pyqrcode` 组件库快速的实现二维码功能。
