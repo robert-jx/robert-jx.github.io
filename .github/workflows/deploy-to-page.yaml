@@ -64,8 +64,9 @@ jobs:
           NEXT_PUBLIC_DOCSEARCH_INDEX_NAME: jasonlam
         run: pnpm export
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-artifact@v4
         with:
+          name: github-pages
           path: ./out
 
   # Deployment job
@@ -78,4 +79,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
