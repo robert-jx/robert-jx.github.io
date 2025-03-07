@@ -1,5 +1,5 @@
 import { StaticImageData } from 'next/image';
-import JavaScript from '@/assets/images/resources/JavaScript.png';
+// import JavaScript from '@/assets/images/resources/JavaScript.png';
 
 export interface Resource {
   name: string;

@@ -1,10 +1,5 @@
 
 import { StaticImageData } from 'next/image';
-import onlineRetailers from '@/assets/images/projects/online-retailers.png'
-import echarts from '@/assets/images/projects/echarts.png'
-import mdn from '@/assets/images/projects/mdn.png'
-import vite from '@/assets/images/projects/vite.jpg'
-import progress from '@/assets/images/projects/progress-bar.png'
 
 export interface Project {
   name: string;
@@ -20,13 +15,11 @@ export const projects: Project[] = [
     description:
       '参与 MDN 文档的本地化，包括翻译并向 MDN 社区提供建设意见',
     link: 'https://github.com/robert-jx/translated-content',
-    logo: mdn
   },
   {
     name: 'online-retailers',
     description: '电商后台系统demo开发',
     link: 'https://github.com/robert-jx/online-retailers',
-    logo: onlineRetailers
   },
   {
     name: 'time-axis',
@@ -39,7 +32,6 @@ export const projects: Project[] = [
     description:
       '基于echarts的二次封装demo，使用vue3+typescript+vite',
     link: 'https://github.com/robert-jx/echarts-tool',
-    logo: echarts
   },
   {
     name: 'blowup-picture',
@@ -52,7 +44,6 @@ export const projects: Project[] = [
     description:
       '提供使用vite创建的vue3模板',
     link: 'https://github.com/robert-jx/vite-demo',
-    logo: vite
   },
   {
     name: 'dragging-demo',
@@ -64,7 +55,6 @@ export const projects: Project[] = [
     name: 'progress-bar',
     description: '基于vue3的进度条效果',
     link: 'https://github.com/robert-jx/progress-bar',
-    logo: progress
   },
 
 ];
