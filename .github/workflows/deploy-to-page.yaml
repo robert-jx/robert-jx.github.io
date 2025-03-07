@@ -32,13 +32,13 @@ jobs:
           path: .next/cache
           key: ${{ runner.os }}-nextjs-${{ hashFiles('**/yarn.lock') }}-${{ hashFiles('**.[jt]s', '**.[jt]sx') }}
           restore-keys: |
-            ${{ runner.os }}-nextjs-${{ hashFiles('**/yarn.lock') }}-
+            ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
       - run: yarn
       - run: yarn build
         env:
-          EXPORT: 1
-          UNOPTIMIZED: 1
-          BASE_PATH: ${{ steps.configurepages.outputs.base_path }}
+          NEXT_PUBLIC_DOCSEARCH_APP_ID: ${{ secrets.DOCSEARCH_APP_ID }}
+          NEXT_PUBLIC_DOCSEARCH_API_KEY: ${{ secrets.DOCSEARCH_API_KEY }}
+          NEXT_PUBLIC_DOCSEARCH_INDEX_NAME: jasonlam
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
