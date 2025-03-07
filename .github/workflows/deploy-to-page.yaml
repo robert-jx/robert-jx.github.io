@@ -62,23 +62,10 @@ jobs:
           NEXT_PUBLIC_DOCSEARCH_APP_ID: ${{ secrets.DOCSEARCH_APP_ID }}
           NEXT_PUBLIC_DOCSEARCH_API_KEY: ${{ secrets.DOCSEARCH_API_KEY }}
           NEXT_PUBLIC_DOCSEARCH_INDEX_NAME: jasonlam
-        run: |
-          rm -rf ./out
-          pnpm build --no-lint
-          pnpm export
-      
-      - name: Validate Artifact
-        run: |
-          du -sh ./out
-          if [ $(find ./out -type l | wc -l) -gt 0 ]; then
-            echo "发现符号链接，请检查构建配置"
-            exit 1
-          fi
+        run: pnpm export
       - name: Upload artifact
-        # uses: actions/upload-pages-artifact@v1
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-pages-artifact@v1
         with:
-          name: github-pages  # 必须为这个名称
           path: ./out
 
   # Deployment job
@@ -91,4 +78,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v1
