@@ -62,7 +62,11 @@ jobs:
           NEXT_PUBLIC_DOCSEARCH_APP_ID: ${{ secrets.DOCSEARCH_APP_ID }}
           NEXT_PUBLIC_DOCSEARCH_API_KEY: ${{ secrets.DOCSEARCH_API_KEY }}
           NEXT_PUBLIC_DOCSEARCH_INDEX_NAME: jasonlam
-        run: pnpm export
+        run: |
+          pnpm export
+          ls -lR out  # 检查目录结构
+          du -sh out   # 检查目录大小
+        # run: pnpm export
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
